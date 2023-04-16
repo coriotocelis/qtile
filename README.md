@@ -1,2 +1,5 @@
-# qtile
-My personal qtile configuration
+# Qtile
+
+![Qtile](screenshots/Desktop.png)
+
+![Qtile](screenshots/Terminal.png)
