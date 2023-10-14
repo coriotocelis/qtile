@@ -79,7 +79,7 @@ screens = [
                 
                 widget.TextBox("", foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
                 widget.TextBox("󰕾", background=COLOR_ONE , foreground=COLOR_TWO, fontsize=SIZE_ONE_FIVE),
-                widget.PulseVolume(fmt='{}', background=COLOR_ONE , foreground=COLOR_TWO),
+                widget.Volume(fmt='Vol: {}', background=COLOR_ONE , foreground=COLOR_TWO),
                 widget.TextBox("",foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
                 
                 widget.TextBox("", foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),

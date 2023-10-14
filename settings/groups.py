@@ -5,7 +5,7 @@ from settings.keys import *
 
 groups = [Group(i) for i in [
 
-    "   ", "   ", " 󰨞  ", " 󰙯  ", "   ", "   ", "   ", " 󰈙  ", "   ",
+    "   ", " 󰈹  ", " 󰨞  ", " 󰙯  ", "   ", "   ", "   ", " 󰈙  ", "   ",
 ]]
 
 for i, group in enumerate(groups):
