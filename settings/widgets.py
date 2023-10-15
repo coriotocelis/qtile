@@ -27,12 +27,12 @@ screens = [
                 widget.TextBox("",foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
                 
                 widget.TextBox("", foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
-                widget.Net(background=COLOR_ONE , foreground=COLOR_TWO),
+                widget.Net(format='{down:.0f}{down_suffix} ↓↑ {up:.0f}{up_suffix}', background=COLOR_ONE , foreground=COLOR_TWO),
                 widget.TextBox("󱚻 ", background=COLOR_ONE , fontsize=SIZE_ONE_FIVE , foreground=COLOR_TWO),
                 widget.TextBox("",foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
             
                 widget.TextBox("", foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
-                widget.CPU(background=COLOR_ONE , foreground=COLOR_TWO),
+                widget.CPU(format='{freq_current}GHz {load_percent}%', background=COLOR_ONE , foreground=COLOR_TWO),
                 widget.TextBox("󰍛", background=COLOR_ONE , fontsize="17", foreground=COLOR_TWO),
                 widget.TextBox("",foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
                 
@@ -51,6 +51,7 @@ screens = [
                     fontsize=15,
                     padding=1,
                     background="#4c566a",
+                    highlight_color=['4c566a', '4c566a']
                     ),
                 widget.Prompt(),
                 
@@ -79,7 +80,7 @@ screens = [
                 
                 widget.TextBox("", foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
                 widget.TextBox("󰕾", background=COLOR_ONE , foreground=COLOR_TWO, fontsize=SIZE_ONE_FIVE),
-                widget.Volume(fmt='Vol: {}', background=COLOR_ONE , foreground=COLOR_TWO),
+                widget.Volume(fmt='{}', background=COLOR_ONE , foreground=COLOR_TWO),
                 widget.TextBox("",foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
                 
                 widget.TextBox("", foreground=COLOR_ONE ,fontsize=SIZE_TWO_TWO , padding=(-1)),
